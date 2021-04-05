@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(250, 185, 100);
+}
+
+.parent-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 320px;
+    width: 580px;
+    background-color: rgb(247, 208, 158);
+    margin: auto;
+    margin-top: 15rem;
+}
+
+.button-div {
+height: 120px;
+text-align: center;
+padding: 2.1rem;
+}
+
+button {
+    height:  50px;
+    width: 160px;
+    color: white;
+    background-color: rgb(250, 185, 100);
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 10px; 
+}
+
+.quote {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 100;
+    padding: 10px;
+    color: rgb(245, 145, 13);
+}
